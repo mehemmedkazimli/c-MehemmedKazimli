@@ -19,7 +19,7 @@ namespace Mehemmed
             //telebeler.Add(4,"Fərid");
             //telebeler.Add(5,"Uzun Həsən");
 
-            //string secim = "";
+            //string secim ="";
 
             //while (secim != "4")
             //{
@@ -27,21 +27,21 @@ namespace Mehemmed
             //    Console.WriteLine("2 Tələbəni ID ilə axtar");
             //    Console.WriteLine("3 Bütün tələbələri göstər");
             //    Console.WriteLine("4 Çıxış");
-            //    Console.Write("Seçim edin: ");
+            //    Console.Write("Seçim edin:");
             //    secim = Console.ReadLine();
             //    switch (secim)
             //    {
             //        case "1":
-            //            Console.Write("ID:");
+            //            Console.Write("ID");
             //            int id = Convert.ToInt32(Console.ReadLine());
-            //            Console.Write("Ad:");
+            //            Console.Write("Ad");
             //            string ad = Console.ReadLine();
             //            telebeler.Add(id, ad);
             //            Console.WriteLine("Əlavə olundu.");
             //            break;
 
             //        case "2":
-            //            Console.Write("Axtarılan ID: ");
+            //            Console.Write("Axtarılan ID");
             //            int axtarilanId = Convert.ToInt32(Console.ReadLine());
             //            string tapilanAd;
             //            if (telebeler.TryGetValue(axtarilanId, out tapilanAd))
@@ -57,12 +57,12 @@ namespace Mehemmed
             //        case "3":
             //            foreach (var item in telebeler)
             //            {
-            //                Console.WriteLine("ID:" + item.Key + "Ad: " + item.Value);
+            //                Console.WriteLine("ID" + item.Key + "Ad" + item.Value);
             //            }
             //            break;
 
             //        case "4":
-            //            Console.WriteLine("Çıxış edilir...");
+            //            Console.WriteLine("Çıxış edilir");
             //            break;
             //    }
             //}
@@ -75,7 +75,7 @@ namespace Mehemmed
             //switch (secim)
             //{
             //    case "1":
-            //        Console.Write("Radius daxil edin: ");
+            //        Console.Write("Radius daxil edin");
             //        double r = Convert.ToDouble(Console.ReadLine());
             //        sahe = Math.PI * Math.Pow(r, 2);
             //        break;
